@@ -1,4 +1,4 @@
-package com.geofencingapp
+package com.almustarik.GeoFencingApp
 
 import android.app.Application
 import android.content.res.Configuration
