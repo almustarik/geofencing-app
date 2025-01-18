@@ -2,6 +2,30 @@
   "expo": {
     "name": "GeoFencingApp",
     "slug": "GeoFencingApp",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "newArchEnabled": true,
+    "android": {
+      "package": "com.almustarik.GeoFencingApp",
+      "googleMaps": {
+        "apiKey": "AIzaSyBJ_XlxltqRMHEaqUxKak6LkIb0jt4qRWM"
+      },
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow GeoFencing App to access your location."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "9388a57f-21ca-41d5-a70c-07ea8ae73b43"
+      }
+    }
   }
 }
