@@ -55,8 +55,8 @@ An intuitive React Native application for creating, viewing, editing, and managi
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/geofence-app.git
-   cd geofence-app
+   git clone https://github.com/almustarik/geofencing-app.git
+   cd geofencing-app
    ```
 
 2. Install dependencies:
